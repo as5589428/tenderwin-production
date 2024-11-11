@@ -1,0 +1,76 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.topBtn {
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  background-color: #9333ea;
+  box-shadow: var(--shadow-color);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Adds smooth transitions for better UX */
+}
+
+.topBtn:hover {
+  background-color: #9333ea; /* Slight color change on hover */
+}
+
+.topBtnIcon {
+  animation: gototop 1.2s linear infinite alternate-reverse;
+  font-size: 20px;
+}
+
+@keyframes gototop {
+  0% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .topBtn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    right: 0.5rem;
+    bottom: 2rem;
+  }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+  .topBtn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    right: 0.5rem;
+    bottom: 2rem;
+  }
+}
+
+/* Extra small devices (very small screens, below 576px) */
+@media (max-width: 400px) {
+  .topBtn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    right: 0.5rem;
+    bottom: 2rem;
+  }
+}

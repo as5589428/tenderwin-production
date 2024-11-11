@@ -1,0 +1,19 @@
+/* styles/TeamBidSlider.module.css */
+.prev,
+.next {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  border: none;
+  border-radius: 50%;
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 1); /* Fully opaque on hover */
+}

@@ -1,0 +1,53 @@
+.bg-dark-orange {
+    background-color: #e46f36;  
+}
+
+.no-decoration
+{
+    text-decoration: none;
+}
+
+.fs-25
+{
+    font-size: 25px;
+}
+
+
+.gradient
+{
+    background: linear-gradient(to right, rgba(245, 120, 4, 0.7) 0%, rgba(162, 72, 72, 0.7) 100%);
+}
+
+
+.navlink {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 18px !important ; /* Adjust font size */
+    color: #ffffff; /* Default text color */
+    padding: 0.5rem 1rem; /* Add padding for better click area */
+    margin-right: 1rem !important ; 
+    transition: color 0.3s ease, transform 0.7s ease; /* Smooth transitions for color and scale */
+}
+
+.navlink:last-child {
+    margin-right: 0; /* Remove margin for the last link */
+}
+
+/* Hover effect */
+.navlink:hover {
+    color: #e46f36  !important ; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Add a subtle glow effect */
+}
+
+.logo-w-h
+{
+    width:215px !important;
+    height:29px !important;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center; 
+  }
+  

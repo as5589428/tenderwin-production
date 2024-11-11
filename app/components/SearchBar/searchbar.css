@@ -1,0 +1,37 @@
+/* searchbar.css */
+
+/* Existing styles... */
+
+.input-group {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+}
+
+.form-select {
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent */
+    color: white;
+}
+
+.form-control {
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px; /* Space between select and input */
+}
+
+.btn-primary {
+    height: 60px;
+    border-radius: 5px; /* Consistent border radius */
+}
+
+.btn-outline {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
